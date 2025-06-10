@@ -14,5 +14,12 @@ int main(){
     outfiles.open(Namafiles + ".txt",ios ::out);
     cout << ">= Menulis file \'n\' Untuk keluar" << endl;
     //unlimited loop untuk menulis
-    outfile.close();
+    while (true) {
+        cout << "-";
+        //mendapatkan setiap karakter dalam satu baris
+        getline (cin, baris);
+        if (baris == "q") break;
+        outfiles << baris << endl;
+    }
+    outfiles.close();
 }
