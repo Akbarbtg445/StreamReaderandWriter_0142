@@ -11,6 +11,7 @@ int main () {
 
     outfile.open ("contohfile.txt");
     cout << "Menulis file,\'q\' untuk keluar" << endl;
+    //unlimited loop untuk Menulis
     while (true) {
         cout << "- ";
         //Mendapatkan setiap karakter dalam satu baris
