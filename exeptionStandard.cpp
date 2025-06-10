@@ -10,6 +10,7 @@ try{
     cout << data.at(5)<< endl;
 }
 catch (exception&e) {
+    //penangkap menngunakan obyek exception
     cout << e.what() << endl;
 }
 cout << "Baris Program yang terakhir" << endl;
