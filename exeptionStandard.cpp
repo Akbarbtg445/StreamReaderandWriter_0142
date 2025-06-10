@@ -1,0 +1,17 @@
+#include <iostream>
+#include <array>
+#include <exception>
+using namespace std;
+
+int main (){
+cout << "awal program" << endl;
+try{
+    array<int,3> data={10,20,30};
+    cout << data.at(5)<< endl;
+}
+catch (exception&e) {
+    cout << e.what() << endl;
+}
+cout << "Baris Program yang terakhir" << endl;
+return 0;
+}
