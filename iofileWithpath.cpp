@@ -11,4 +11,8 @@ int main(){
     //Membuka file dalam mode menulis
     ofstream outfiles;
     //menunjuk ke sebuah nama file 
+    outfiles.open(Namafiles + ".txt",ios ::out);
+    cout << ">= Menulis file \'n\' Untuk keluar" << endl;
+    //unlimited loop untuk menulis
+    outfile.close();
 }
