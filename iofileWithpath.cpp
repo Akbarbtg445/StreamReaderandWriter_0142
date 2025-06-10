@@ -28,4 +28,18 @@ int main(){
     //membuka file dalam mode membaca 
     ifstream infiles;
     //menunjuk ke sebuah file
+    infiles.open(Namafiles,ios::in);
+    cout << endl << ">=Membuka dan membaca file" << endl;
+    if (infiles.is_open()) {
+    cout << baris << endl;
+    while (getline(infiles, baris))
+    {
+        cout << baris << '\n';
+        
+    }
+    infiles.close();
+     }
+
+     else cout << "Unable to open files";
+    return 0;
 }
