@@ -23,5 +23,6 @@ int main(){
         //menulis dan memasuikan nilai dari baris ke dalam file
         outfiles << baris << endl;
     }
+    //selesai dalam menulis sekarang tutup filenya
     outfiles.close();
 }
