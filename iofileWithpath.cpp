@@ -10,4 +10,5 @@ int main(){
     cin >> Namafiles;
     //Membuka file dalam mode menulis
     ofstream outfiles;
+    //menunjuk ke sebuah nama file 
 }
